@@ -21,6 +21,8 @@ DEFAULT_PAGINATION = 10
 
 REVERSE_ARCHIVE_ORDER = True
 
+STATIC_PATHS = ['images', ]
+
 GOOGLE_ANALYTICS = 'UA-537852-1'
 
 # Take the ``date`` metadata and put the articles into folders
