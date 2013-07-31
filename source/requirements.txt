@@ -1,2 +1,2 @@
--e git://github.com/cravesoft/pelican.git@plugin-github-paypal-donate-button#egg=pelican
+-e git://github.com/cravesoft/pelican.git#egg=pelican
 Markdown
