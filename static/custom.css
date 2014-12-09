@@ -1,3 +1,8 @@
+body {
+    width: 100%;
+    background: #f0ece9;
+}
+
 .published {
     margin-right: 15px;
 }
@@ -9,4 +14,199 @@
 .navbar-text {
     margin-top:5px;
     margin-bottom:5px;
+}
+
+.thumbnail.right-caption > img {
+    float: left;
+    margin-right: 9px;
+}
+
+.thumbnail.right-caption {
+    float: left;
+}
+
+.thumbnail.right-caption > .caption {
+    padding: 4px;
+}
+
+.row .thumbnail {
+    border:0;
+    box-shadow:0;
+    border-radius:0;
+}
+
+.row{
+        margin-top: 25px;
+            margin-left: 25px;
+}
+
+a.thumbnail{
+        display: inline-flex;
+}
+
+a.thumbnail div{
+        float: left;
+            margin: 1%;
+}
+
+a.thumbnail div:last-child{
+        margin-top: 25px;
+            margin-top: 25px;
+}
+
+a.thumbnail ul{
+        list-style-type: none;
+            padding-left: 0px !important;
+}
+
+.project-image-portrait {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 60%;
+}
+
+.project-image-landscape {
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    width: 100%;
+    height: 200px;
+    display: none;
+    margin-bottom: 24px;
+}
+
+.project-column {
+    width: 60%;
+    margin: 0 0;
+}
+
+.project {
+    color: #000;
+    overflow: hidden;
+    font-family: "Source Sans Pro";
+    font-weight: 300;
+    font-size: 18px;
+    margin: 0 40px;
+    padding: 40px 0;
+}
+.project h2 {
+    font-family: "Roboto Slab";
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 24px;
+    /*text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.15);*/
+    color: #333;
+}
+.project .status {
+    color: #AAA;
+}
+.project p {
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+.project p u {
+    text-decoration: none;
+    border-bottom: 1px solid #222;
+}
+.project p a {
+    text-decoration: none;
+    color: #0075FF;
+}
+.project ul.links {
+    font-family: "Roboto Slab";
+    font-weight: 400;
+    overflow: hidden;
+    font-size: 16px;
+    text-transform: lowercase;
+    margin-top: 24px;
+    list-style: none;
+    padding: 0;
+}
+.project ul.links li {
+    float: left;
+}
+.project ul.links li a {
+    display: block;
+    color: #fff;
+    padding: 10px 16px;
+    margin-right: 3px;
+    background: #6e7682;
+    text-decoration: none;
+    border-top: 3px solid #FFF;
+    font: inherit;
+    transition: background-color 0.2s;
+}
+.project ul.links li a:hover {
+    border-top: 3px solid #333;
+    background: #333;
+    color: #FFF;
+}
+.project ul.links li a.custom {
+    display: block;
+    color: #fff;
+    padding: 0;
+    margin-right: 3px;
+    background: #fff;
+    text-decoration: none;
+    border-top: 0px;
+}
+article {
+    background: #FFF;
+    padding: 40px;
+}
+.archives {
+    background: #FFF;
+    padding: 40px;
+}
+.archives h2 {
+    font-family: "Roboto Slab";
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 24px;
+    /*text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.15);*/
+    color: #333;
+}
+.content-floater {
+    width: 100%;
+    margin-bottom: 48px;
+}
+.content-wrapper {
+    max-width: 860px;
+    margin: auto;
+    background: #FFF;
+    position: relative;
+}
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url(http://themes.googleusercontent.com/static/fonts/robotoslab/v2/y7lebkjgREBJK96VQi37ZrrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
+}
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Roboto Slab Bold'), local('RobotoSlab-Bold'), url(http://themes.googleusercontent.com/static/fonts/robotoslab/v2/dazS1PrQQuCxC3iOAJFEJRbnBKKEOwRKgsHDreGcocg.woff) format('woff');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto Regular'), local('Roboto-Regular'), url(http://themes.googleusercontent.com/static/fonts/roboto/v9/CrYjSnGjrRCn0pd9VQsnFOvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/toadOcfmlt9b38dHJxOBGMVNtom4QlEDNJaqqqzqdSs.woff) format('woff');
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/ODelI1aHBYDBqgeIAH2zlNHq-FFgoDNV3GTKpHwuvtI.woff) format('woff');
 }
