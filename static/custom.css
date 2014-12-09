@@ -36,7 +36,7 @@ body {
 
 article {
     background: #FFF;
-    padding: 40px;
+    padding: 35px;
 }
 
 article img {
@@ -97,8 +97,8 @@ p {
     font-family: "Source Sans Pro";
     font-weight: 300;
     font-size: 18px;
-    margin: 0 40px;
-    padding: 40px 0;
+    margin: 0 35px;
+    padding: 35px 0;
 }
 .project p {
     line-height: 1.7;
@@ -160,7 +160,7 @@ p {
 
 .archives {
     background: #FFF;
-    padding: 40px;
+    padding: 35px;
 }
 
 .content-floater {
